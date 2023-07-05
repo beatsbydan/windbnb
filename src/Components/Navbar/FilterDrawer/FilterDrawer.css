@@ -2,34 +2,23 @@
     width: 100%;
     display: grid;
     grid-template-columns: 40% 40% 20% ;
-    align-items: center;
 }
 .mySearch{
     margin: auto;
 }
-.location{
+.location, .guests{
     cursor: pointer;
+    padding: 0.9rem;
     border-right: 1px solid rgba(0, 0, 0, 0.13);
 }
-.myLocation{
+.myLocation, .myGuests{
     width: 100%;
-    padding: 0.9rem;
     text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
 }
-.addLocation{
-    font-size: 0.85rem;
-    color: black;
-}
-.guests{
-    cursor: pointer;
-    border-right: 1px solid rgba(0, 0, 0, 0.13);
-}
-.myGuests{
-    width: 100%;
-    padding: 0.9rem;
-    text-align: center;
-}
-.addGuests{
+.addLocation, .addGuests{
     font-size: 0.85rem;
     color: black;
 }

@@ -18,6 +18,7 @@ const StaysContextProvider = (props) => {
     },[])
     const filter = () => {
         if(ctx.details.location === "" && ctx.details.guests === 0){
+            alert('Add a Location or Guests')
             return
         }
         else{
