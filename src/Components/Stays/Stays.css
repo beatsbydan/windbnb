@@ -1,0 +1,38 @@
+.stays{
+    width: 100%;
+    margin: 5em auto;
+}
+.top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.myStays{
+    width: 100%;
+    max-width: 1050px;
+    margin: auto;
+}
+.staysList{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.4rem;
+    margin: 4em auto 0 auto;
+}
+.errorMsg{
+    text-align: center;
+    margin-top: 5em;
+}
+@media screen and (max-width:1100px) {
+    .staysList{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:800px) {
+    .staysList{
+        grid-template-columns: unset;
+        
+    }
+}

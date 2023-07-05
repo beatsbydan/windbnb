@@ -1,0 +1,28 @@
+.myNav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.navLeft{
+    width: 120px;
+}
+.navLeft img{
+    width: 100%;
+}
+.navRight{
+    width: 90%;
+    max-width: 550px;
+    border-radius: 1rem;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.078);
+}
+@media screen and (max-width:600px) {
+    .myNav{
+        display: unset;
+    }
+    .navRight{
+        margin: 2em auto;
+    }
+}

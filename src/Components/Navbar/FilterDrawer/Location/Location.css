@@ -1,0 +1,56 @@
+.myLocationBlock{
+    width: 100%;
+    cursor: pointer;
+    border-right: 1px solid rgba(0, 0, 0, 0.13);
+}
+.selectLocation{
+    width: 100%;
+    padding: 0.8rem 1.5rem;
+    position: relative;
+}
+.locationBlock{
+    width: 100%;
+}
+.locationBlock small{
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+.myPosition{
+    font-size: 0.85rem;
+}
+.locationDropDown{
+    width: 100%;
+    position: absolute;
+    top: calc(100% + 2em);
+    left: 2rem;
+}
+.locationDropDown ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+.locationItem{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:0.6rem;
+    cursor: pointer;
+}
+.locationItem p{
+    color: #4F4F4F;
+}
+@media screen and (max-width:600px) {
+    .myLocationBlock{
+        position: relative;
+        border-right: none;
+        border-bottom: 0.1rem solid rgba(0, 0, 0, 0.13);
+    }
+    .selectLocation{
+        position: unset;
+    }
+    .locationDropDown{
+        top: calc(100% + 6em);
+    }
+}

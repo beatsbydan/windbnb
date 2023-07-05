@@ -1,0 +1,69 @@
+.myGuestsBlock{
+    width: 100%;
+    cursor: pointer;
+    border-right: 1px solid rgba(0, 0, 0, 0.13);
+}
+.selectGuests{
+    width: 100%;
+    padding: 0.8rem 1.5rem;
+    position: relative;
+}
+.guestsBlock{
+    width: 100%;
+}
+.guestsBlock small{
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+.my-Guests{
+    font-size: 0.85rem;
+}
+.guestsDropDown{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: calc(100% + 2em);
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.adults, .children{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+.adults p, .children p{
+    color: #BDBDBD;
+    font-size: 1rem;
+}
+.adults h4, .children h4{
+    font-weight: 600;
+}
+.buttonBlock{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+.buttonBlock button{
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+@media screen and (max-width:600px) {
+    .myGuestsBlock{
+        position: relative;
+        border-right: none;
+    }
+    .guestsDropDown{
+        left:2rem;
+    }
+    .selectGuests{
+        position: unset;
+    }
+}

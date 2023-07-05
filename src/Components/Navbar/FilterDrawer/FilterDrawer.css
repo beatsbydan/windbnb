@@ -1,0 +1,40 @@
+.filterDrawer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 40% 20% ;
+    align-items: center;
+}
+.mySearch{
+    margin: auto;
+}
+.location{
+    cursor: pointer;
+    border-right: 1px solid rgba(0, 0, 0, 0.13);
+}
+.myLocation{
+    width: 100%;
+    padding: 0.9rem;
+    text-align: center;
+}
+.addLocation{
+    font-size: 0.85rem;
+    color: black;
+}
+.guests{
+    cursor: pointer;
+    border-right: 1px solid rgba(0, 0, 0, 0.13);
+}
+.myGuests{
+    width: 100%;
+    padding: 0.9rem;
+    text-align: center;
+}
+.addGuests{
+    font-size: 0.85rem;
+    color: black;
+}
+.empty{
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #BDBDBD;
+}
